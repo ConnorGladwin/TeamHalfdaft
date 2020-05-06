@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+
+body {
+    margin: 5px 5px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.intro {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.products {
+    margin: 0 auto;
+}
+
+/* The class for the entire luggage section */
+.luggage {
+    display: flex;
+    margin: 5px auto;
+    width: 1300px;
+    padding: 0 5px;
+}
+
+/* The class for the individual luggage rack products */
+.luggage-rack {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 5px 5px;
+    border: 5px solid black;
+    padding: 0 10px;
+}
+
+/* The class for the entire footrest section */
+.footrests {
+    display: flex;
+    margin: 5px auto;
+    width: 1300px;
+    padding: 0 5px;
+}
+
+/* The class for the individual footrest products */
+.footrest {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 5px 5px;
+    border: 5px solid black;
+    padding: 0 20px;
+}
+
+/* The class for the entire protection section */
+.protection {
+    margin: 5px auto;
+    width: 1300px;
+    padding: 0 5px;
+}
+
+/* The class for the individual protection products */
+.protectors {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 5px 5px;
+    border: 5px solid black;
+    padding: 0 20px;
+    flex: 1 1 50%;
+}
+
+.protector-group1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.protector-group2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.others {
+    margin: 5px auto;
+    width: 1300px;
+    padding: 0 5px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 5px 5px;
+    border: 5px solid black;
+    padding: 0 20px;
+    flex: 1 1 50%;
+}
+
+.other-group1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.other-group2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.seats {
+    margin: 5px auto;
+    width: 1300px;
+    padding: 0 5px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    margin: 5px auto;
+    width: 1000px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input {
+    height: 25px;
+}
+
+/* Formatting for the images */
+/* .image {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+} */
+
+/* images are split into 
+two sets of two, which 
+are then displayed as a column */
+.image-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Formatting for the product list section */
+.list {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
